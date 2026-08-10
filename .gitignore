@@ -1,2 +1,32 @@
-dist/
-*.zip
+# Generated releases and build output
+/dist/
+/*.zip
+*.apk.idsig
+
+# Signing material must never be committed
+*.jks
+*.keystore
+*.pem
+*.key
+
+# Android/Java build output
+.gradle/
+build/
+out/
+*.class
+*.dex
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
