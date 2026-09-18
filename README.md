@@ -8,6 +8,7 @@ A small KernelSU Next module that opens Gemini when you hold the Power button on
 - Maps a long press of the Power button to the Google assistant action.
 - Does not replace or patch any system APK.
 - Does not require LSPosed.
+- Automatically restores Android's Google voice-interaction backend if a Google app update clears it.
 
 ## Compatibility
 
@@ -17,12 +18,14 @@ The Google app and Gemini must already be installed and functional.
 
 ## Installation
 
-1. Download `HyperOS-Power-Button-Gemini-v1.0.0.zip` from Releases.
+1. Download the latest `HyperOS-Power-Button-Gemini` ZIP from Releases.
 2. Open KernelSU Manager and install the ZIP as a module.
 3. Reboot once.
 4. Hold the Power button to open Gemini.
 
 No battery, accessibility, overlay, notification, or manual root permission is required.
+
+The module performs one lightweight settings check per minute. It writes nothing unless HyperOS or a Google app update has cleared the selected voice-interaction service.
 
 ## Uninstall and rollback
 

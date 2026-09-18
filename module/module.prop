@@ -1,6 +1,6 @@
 id=hyperos_power_button_gemini
 name=HyperOS Power Button Gemini
-version=1.0.0
-versionCode=100
+version=1.1.0
+versionCode=110
 author=sajidifti
-description=Launch Gemini by holding the Power button on HyperOS China ROMs.
+description=Launch Gemini by holding Power, with automatic recovery after Google app updates on HyperOS China ROMs.
